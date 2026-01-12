@@ -4,9 +4,7 @@
     <name>Komorebi Theme</name>
     <vendor>Jan-Niklas Wortmann</vendor>
 
-    <description><![CDATA[
-    <h2>Komorebi - Coding in Bioluminescence</h2>
-    <p><b>Komorebi</b> (Japanese: <i>Sunlight filtering through trees</i>) is a JetBrains IDE theme designed for the modern developer who values cognitive sustainability.</p>
+    <description><![CDATA[Komorebi is a JetBrains IDE theme designed for the modern developer who values cognitive sustainability. The name comes from the Japanese word for sunlight filtering through trees.
 
     <p><img src="screenshot.png" alt="Komorebi Theme Screenshot" width="800"/></p>
 

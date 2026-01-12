@@ -68,3 +68,23 @@
     "NEW INSTRUCTION": "WHEN theme change affects multiple UI components THEN scan theme and update consistently in one pass"
 }
 
+[2026-01-12 15:10] - Updated by Junie - Trajectory analysis
+{
+    "PLAN QUALITY": "near-optimal",
+    "REDUNDANT STEPS": "cleanup duplicate",
+    "MISSING STEPS": "run build",
+    "BOTTLENECK": "Bulk replace introduced a duplicate that required an extra cleanup edit.",
+    "PROJECT NOTE": "-",
+    "NEW INSTRUCTION": "WHEN validator flags plugin description start THEN move plain-text sentence to start and run build to verify"
+}
+
+[2026-01-12 15:13] - Updated by Junie - Trajectory analysis
+{
+    "PLAN QUALITY": "near-optimal",
+    "REDUNDANT STEPS": "inspect config, recopy asset",
+    "MISSING STEPS": "check existing icon",
+    "BOTTLENECK": "Misnamed copy to .svg required an extra corrective copy.",
+    "PROJECT NOTE": "JetBrains plugins auto-detect pluginIcon.png/svg in META-INF; no plugin.xml change needed.",
+    "NEW INSTRUCTION": "WHEN Preparing to add JetBrains plugin logo THEN Check for existing pluginIcon.*, then copy PNG as pluginIcon.png"
+}
+

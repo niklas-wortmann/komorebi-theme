@@ -3,7 +3,7 @@
 ### *Coding in Bioluminescence*
 
 <!-- Plugin description -->
-**Komorebi** (Japanese: 木漏れ日 — *Sunlight filtering through trees*) is a JetBrains IDE theme designed for the modern developer who values cognitive sustainability.
+Komorebi (Japanese: "Sunlight filtering through trees") is a JetBrains IDE theme designed for the modern developer who values cognitive sustainability.
 
 It rejects the harsh, high-contrast norms of traditional "Dark Modes" in favor of a **soft, organic, and bioluminescent aesthetic**.
 
