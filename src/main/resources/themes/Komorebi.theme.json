@@ -1,7 +1,7 @@
 {
   "name": "Komorebi",
   "dark": true,
-  "author": "Komorebi Theme",
+  "author": "Jan-Niklas Wortmann",
   "parentTheme": "Islands Dark",
   "editorScheme": "/themes/Komorebi.xml",
   "colors": {
@@ -25,7 +25,7 @@
   },
   "ui": {
     "*": {
-      "arc": "8",
+      "arc": 8,
       "background": "deepForest",
       "foreground": "moonlight",
       "selectionBackground": "selectionBg",
@@ -43,13 +43,15 @@
       "separatorColor": "border"
     },
     "ActionButton": {
+      "arc": 8,
       "hoverBackground": "selectionBg",
       "hoverBorderColor": "border",
       "pressedBackground": "selectionBg",
       "pressedBorderColor": "electricLavender"
     },
     "Button": {
-      "arc": "8",
+      "arc": 8,
+      "shadowWidth": 0,
       "background": "selectionBg",
       "foreground": "moonlight",
       "startBackground": "selectionBg",
@@ -58,6 +60,8 @@
       "endBorderColor": "border",
       "focusedBorderColor": "electricLavender",
       "default": {
+        "arc": 8,
+        "shadowWidth": 0,
         "foreground": "deepForest",
         "startBackground": "electricLavender",
         "endBackground": "electricLavender",
@@ -76,6 +80,7 @@
       "select": "electricLavender"
     },
     "ComboBox": {
+      "arc": 8,
       "background": "selectionBg",
       "nonEditableBackground": "selectionBg",
       "ArrowButton": {
@@ -103,6 +108,7 @@
       "inactiveWarningFocusColor": "sunsetOrange"
     },
     "Counter": {
+      "arc": 8,
       "background": "electricLavender",
       "foreground": "deepForest"
     },
@@ -141,11 +147,13 @@
       "Yellow": "#2A2C30"
     },
     "GotItTooltip": {
+      "arc": 8,
       "background": "softShadow",
       "foreground": "moonlight",
       "borderColor": "border",
       "linkForeground": "electricLavender",
       "Button": {
+        "arc": 8,
         "foreground": "deepForest",
         "startBackground": "electricLavender",
         "endBackground": "electricLavender",
@@ -232,6 +240,7 @@
       "background": "softShadow"
     },
     "Notification": {
+      "arc": 8,
       "background": "softShadow",
       "borderColor": "border",
       "errorBackground": "#2D1F24",
@@ -251,6 +260,7 @@
       "foreground": "moonlight"
     },
     "PasswordField": {
+      "arc": 8,
       "background": "selectionBg"
     },
     "Plugins": {
@@ -269,6 +279,7 @@
         "updateBorderColor": "mintLeaf"
       },
       "SearchField": {
+        "arc": 8,
         "background": "selectionBg",
         "borderColor": "border"
       },
@@ -280,6 +291,7 @@
       "tagForeground": "moonlight"
     },
     "Popup": {
+      "arc": 8,
       "background": "softShadow",
       "borderColor": "border",
       "Header": {
@@ -309,6 +321,7 @@
       "select": "electricLavender"
     },
     "RunWidget": {
+      "arc": 8,
       "background": "selectionBg",
       "foreground": "moonlight",
       "runningBackground": "#2D3D35",
@@ -343,6 +356,7 @@
         "background": "softShadow"
       },
       "SearchField": {
+        "arc": 8,
         "background": "softShadow",
         "borderColor": "border"
       },
@@ -375,6 +389,7 @@
       "errorForeground": "coral"
     },
     "Spinner": {
+      "arc": 8,
       "background": "selectionBg"
     },
     "StatusBar": {
@@ -419,6 +434,7 @@
       "inactiveBackground": "deepForest"
     },
     "TextField": {
+      "arc": 8,
       "background": "selectionBg",
       "foreground": "moonlight",
       "caretForeground": "moonlight",
@@ -441,6 +457,7 @@
       "borderHandleColor": "foregroundDim"
     },
     "ToolTip": {
+      "arc": 8,
       "background": "softShadow",
       "foreground": "moonlight",
       "borderColor": "border",

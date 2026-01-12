@@ -48,3 +48,23 @@
     "NEW INSTRUCTION": "WHEN error is reported without message or stacktrace THEN ask for exact error text and context"
 }
 
+[2026-01-12 14:30] - Updated by Junie - Trajectory analysis
+{
+    "PLAN QUALITY": "suboptimal",
+    "REDUNDANT STEPS": "-",
+    "MISSING STEPS": "simplify workflows, run build",
+    "BOTTLENECK": "CI workflow still includes tests and Qodana steps not applicable to a theme-only plugin.",
+    "PROJECT NOTE": "Update .github/workflows/build.yml to remove test, Qodana, and UI test jobs while keeping buildPlugin and plugin verifier if desired.",
+    "NEW INSTRUCTION": "WHEN project contains no *.kt or *.java files THEN remove test, qodana, and ui-tests steps from build.yml"
+}
+
+[2026-01-12 14:34] - Updated by Junie - Trajectory analysis
+{
+    "PLAN QUALITY": "suboptimal",
+    "REDUNDANT STEPS": "open design doc",
+    "MISSING STEPS": "scan theme,define arc guideline,verify all interactive elements,run build/preview",
+    "BOTTLENECK": "No upfront inventory of affected components caused iterative, scattered edits.",
+    "PROJECT NOTE": "Island has arc 20; align button-like components’ arc with it for consistency.",
+    "NEW INSTRUCTION": "WHEN theme change affects multiple UI components THEN scan theme and update consistently in one pass"
+}
+
