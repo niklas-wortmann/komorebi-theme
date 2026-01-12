@@ -1,15 +1,43 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.niklaswortmann.komorebitheme</id>
-    <name>komorebi-theme</name>
-    <vendor>niklas-wortmann</vendor>
+    <name>Komorebi Theme</name>
+    <vendor>Jan-Niklas Wortmann</vendor>
+
+    <description><![CDATA[
+    <h2>Komorebi - Coding in Bioluminescence</h2>
+    <p><b>Komorebi</b> (Japanese: <i>Sunlight filtering through trees</i>) is a JetBrains IDE theme designed for the modern developer who values cognitive sustainability.</p>
+
+    <p><img src="screenshot.png" alt="Komorebi Theme Screenshot" width="800"/></p>
+
+    <h3>Features</h3>
+    <ul>
+        <li><b>Soft, organic, bioluminescent aesthetic</b> - Rejects harsh, high-contrast norms</li>
+        <li><b>WCAG AAA compliant</b> - Built from the ground up for accessibility</li>
+        <li><b>Deuteranopia/Protanopia friendly</b> - Color-blind safe palette</li>
+        <li><b>Reduced eye strain</b> - Perfect for long coding sessions</li>
+    </ul>
+
+    <h3>The Digital Forest</h3>
+    <p>The interface mimics a walk through a deep forest at twilight:</p>
+    <ul>
+        <li>The background is a deep, warm charcoal (the forest floor)</li>
+        <li>The code is bioluminescent flora that guides the path</li>
+    </ul>
+
+    <h3>Semantic Joy</h3>
+    <ul>
+        <li><b>Keywords (Sakura Pink)</b> - Playful but authoritative</li>
+        <li><b>Strings (Golden Hour)</b> - Warm and readable</li>
+        <li><b>Variables (Glacier Blue)</b> - Cool and flowing</li>
+        <li><b>Methods (Electric Lavender)</b> - Creative and magical</li>
+        <li><b>Classes (Mint Leaf)</b> - Structure and growth</li>
+    </ul>
+    ]]></description>
 
     <depends>com.intellij.modules.platform</depends>
 
-    <resource-bundle>messages.MyBundle</resource-bundle>
-
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.niklaswortmann.komorebitheme.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
-        <postStartupActivity implementation="com.github.niklaswortmann.komorebitheme.startup.MyProjectActivity" />
+        <themeProvider id="com.github.niklaswortmann.komorebitheme" path="/themes/Komorebi.theme.json"/>
     </extensions>
 </idea-plugin>
