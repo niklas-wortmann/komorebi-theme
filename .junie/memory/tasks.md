@@ -1,0 +1,50 @@
+[2026-01-12 12:53] - Updated by Junie - Trajectory analysis
+{
+    "PLAN QUALITY": "near-optimal",
+    "REDUNDANT STEPS": "-",
+    "MISSING STEPS": "create editor scheme, update plugin.xml, remove template code, run build",
+    "BOTTLENECK": "Work stopped after creating theme JSON without registering or validating it.",
+    "PROJECT NOTE": "plugin.xml still contains template metadata and lacks a themeProvider entry.",
+    "NEW INSTRUCTION": "WHEN plugin.xml contains template entries THEN replace with themeProvider registration and correct metadata"
+}
+
+[2026-01-12 14:06] - Updated by Junie - Trajectory analysis
+{
+    "PLAN QUALITY": "near-optimal",
+    "REDUNDANT STEPS": "remove unknown fields",
+    "MISSING STEPS": "run build",
+    "BOTTLENECK": "Changes were not verified by re-running the build.",
+    "PROJECT NOTE": "Unknown fields may originate from the parent theme and be unfixable here.",
+    "NEW INSTRUCTION": "WHEN theme warnings are addressed THEN rerun buildPlugin and inspect the new logs"
+}
+
+[2026-01-12 14:09] - Updated by Junie - Trajectory analysis
+{
+    "PLAN QUALITY": "suboptimal",
+    "REDUNDANT STEPS": "change FileColor palette, open editor scheme xml",
+    "MISSING STEPS": "search project, consult docs, validate change",
+    "BOTTLENECK": "Misidentified the theme key controlling excluded folders.",
+    "PROJECT NOTE": "Excluded/ignored visuals are usually driven by FileStatus.IGNORED and ProjectView.* keys; look for ProjectView.Excluded or related Tree/ProjectView entries in Komorebi.theme.json.",
+    "NEW INSTRUCTION": "WHEN updating excluded folder appearance THEN search \"excluded|ignored|ProjectView\" keys and edit them"
+}
+
+[2026-01-12 14:13] - Updated by Junie - Trajectory analysis
+{
+    "PLAN QUALITY": "near-optimal",
+    "REDUNDANT STEPS": "list resources directory",
+    "MISSING STEPS": "check marketplace image policy, verify image renders",
+    "BOTTLENECK": "Assumed local image would render on JetBrains Marketplace.",
+    "PROJECT NOTE": "JetBrains Marketplace typically requires images in description to use external https URLs; local resources may not render.",
+    "NEW INSTRUCTION": "WHEN plugin.xml description includes an <img> tag THEN host image at https URL and reference it"
+}
+
+[2026-01-12 14:15] - Updated by Junie - Trajectory analysis
+{
+    "PLAN QUALITY": "near-optimal",
+    "REDUNDANT STEPS": "-",
+    "MISSING STEPS": "ask user, verify configuration",
+    "BOTTLENECK": "No concrete error message was gathered before proposing fixes.",
+    "PROJECT NOTE": "build.gradle.kts already reads the token from environment variable PUBLISH_TOKEN.",
+    "NEW INSTRUCTION": "WHEN error is reported without message or stacktrace THEN ask for exact error text and context"
+}
+
