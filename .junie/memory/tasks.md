@@ -88,3 +88,13 @@
     "NEW INSTRUCTION": "WHEN Preparing to add JetBrains plugin logo THEN Check for existing pluginIcon.*, then copy PNG as pluginIcon.png"
 }
 
+[2026-01-13 09:10] - Updated by Junie - Trajectory analysis
+{
+    "PLAN QUALITY": "suboptimal",
+    "REDUNDANT STEPS": "inspect unrelated svg,replace file content,verbose submit",
+    "MISSING STEPS": "confirm intent,backup file,apply styles in-place,preview changes",
+    "BOTTLENECK": "The agent overwrote the complex SVG instead of minimally styling it.",
+    "PROJECT NOTE": "test.svg seems Potrace-generated; preserve or version it before visual edits.",
+    "NEW INSTRUCTION": "WHEN SVG already exists with many paths THEN inject gradients/filters and edit in-place, not rewrite"
+}
+
