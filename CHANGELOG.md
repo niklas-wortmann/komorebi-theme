@@ -33,6 +33,6 @@
 - **Coral** (`#FF6B9D`) - Errors (accessible alternative to red)
 - **Mint Teal** (`#64FFDA`) - Success (accessible alternative to green)
 
-[Unreleased]: https://github.com/komorebi-theme/komorebi-theme/compare/v1.0.1...HEAD
-[1.0.1]: https://github.com/komorebi-theme/komorebi-theme/compare/v1.0.0...v1.0.1
-[1.0.0]: https://github.com/komorebi-theme/komorebi-theme/commits/v1.0.0
+[Unreleased]: https://github.com/niklas-wortmann/komorebi-theme/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/niklas-wortmann/komorebi-theme/compare/v1.0.0...v1.0.1
+[1.0.0]: https://github.com/niklas-wortmann/komorebi-theme/commits/v1.0.0
